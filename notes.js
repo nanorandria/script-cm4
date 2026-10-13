@@ -96,6 +96,9 @@
   tete.appendChild(fermer);
   var onglets = el('div', 'nr-onglets');
   var corps = el('div', 'nr-corps');
+  var zoneForm = el('div'), zoneListe = el('div');
+  corps.appendChild(zoneForm);
+  corps.appendChild(zoneListe);
   panel.appendChild(tete);
   panel.appendChild(onglets);
   panel.appendChild(corps);
@@ -205,13 +208,16 @@
       onglets.appendChild(b);
     });
 
-    corps.innerHTML = '';
-    if (brouillon) corps.appendChild(formulaire());
-    else corps.appendChild(el('p', 'nr-aide', 'Sélectionne un passage du script, puis clique sur « Ajouter une note ».'));
+    // Le formulaire en cours n'est jamais reconstruit : on perdrait le curseur pendant la saisie
+    if (!brouillon) zoneForm.innerHTML = '';
+    else if (!zoneForm.firstChild) zoneForm.appendChild(formulaire());
 
-    if (!API) { corps.appendChild(el('p', 'nr-etat err', 'Le stockage des notes n’est pas encore branché.')); return; }
-    if (erreur) corps.appendChild(el('p', 'nr-etat err', erreur));
-    if (etat) { corps.appendChild(el('p', 'nr-etat', etat)); return; }
+    zoneListe.innerHTML = '';
+    if (!brouillon) zoneListe.appendChild(el('p', 'nr-aide', 'Sélectionne un passage du script, puis clique sur « Ajouter une note ».'));
+
+    if (!API) { zoneListe.appendChild(el('p', 'nr-etat err', 'Le stockage des notes n’est pas encore branché.')); return; }
+    if (erreur) zoneListe.appendChild(el('p', 'nr-etat err', erreur));
+    if (etat) { zoneListe.appendChild(el('p', 'nr-etat', etat)); return; }
 
     var liste = notes.filter(function (n) {
       return filtre === 'toutes' || (filtre === 'faites' ? estFaite(n) : !estFaite(n));
@@ -219,8 +225,8 @@
       var pa = a._at < 0 ? Infinity : a._at, pb = b._at < 0 ? Infinity : b._at;
       return pa - pb || String(a.date).localeCompare(String(b.date));
     });
-    if (!liste.length) corps.appendChild(el('p', 'nr-etat', filtre === 'faites' ? 'Aucune note traitée.' : 'Aucune note pour l’instant.'));
-    liste.forEach(function (nt) { corps.appendChild(carte(nt)); });
+    if (!liste.length) zoneListe.appendChild(el('p', 'nr-etat', filtre === 'faites' ? 'Aucune note traitée.' : 'Aucune note pour l’instant.'));
+    liste.forEach(function (nt) { zoneListe.appendChild(carte(nt)); });
   }
 
   function carte(nt) {
@@ -338,6 +344,7 @@
         return charger();
       }).catch(function (err) {
         envoiEnCours = false;
+        ok.disabled = false; ok.textContent = 'Enregistrer';
         rendre(null, 'Échec de l’enregistrement : ' + err.message + '. Réessaie.');
       });
     });
@@ -402,6 +409,7 @@
       pos: selEnCours.pos, section: selEnCours.section, apercu: selEnCours.apercu, type: 'Modification', note: ''
     };
     ajout.hidden = true;
+    zoneForm.innerHTML = '';
     var s = window.getSelection(); if (s) s.removeAllRanges();
     basculer(true);
     rendre();
