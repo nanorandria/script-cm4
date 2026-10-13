@@ -1,0 +1,14 @@
+// API des notes de relecture du script CM4 (Cloudflare Worker + base D1).
+// Redéployer : npx wrangler deploy (depuis ce dossier)
+{
+  "name": "cm4-notes",
+  "main": "worker.js",
+  "compatibility_date": "2025-09-01",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "cm4-notes",
+      "database_id": "bc777e4b-9fbb-4b78-ac16-cbd12a5e0906"
+    }
+  ]
+}
