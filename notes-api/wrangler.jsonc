@@ -10,5 +10,12 @@
       "database_name": "cm4-notes",
       "database_id": "bc777e4b-9fbb-4b78-ac16-cbd12a5e0906"
     }
+  ],
+  // Fichiers audio des références (25 Mo max par fichier côté KV, limité à 20 Mo par le Worker)
+  "kv_namespaces": [
+    {
+      "binding": "AUDIO",
+      "id": "524c06705a814e5a86428d1e9bd1b899"
+    }
   ]
 }
