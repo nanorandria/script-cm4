@@ -1,0 +1,332 @@
+[
+ {
+  "chapitre": "CH0",
+  "tableau": "0.1 — PREVIOUSLY",
+  "debut": 0.0,
+  "debut_global": 0.0
+ },
+ {
+  "chapitre": "CH0",
+  "tableau": "0.2 — LE CIEL, APRÈS LES NOCES",
+  "debut": 53.95,
+  "debut_global": 53.95
+ },
+ {
+  "chapitre": "CH0",
+  "tableau": "0.3 — LA CACHETTE",
+  "debut": 87.74,
+  "debut_global": 87.74
+ },
+ {
+  "chapitre": "CH0",
+  "tableau": "0.4 — LE SILENCE",
+  "debut": 285.14,
+  "debut_global": 285.14
+ },
+ {
+  "chapitre": "CH0",
+  "tableau": "0.5 — LA PORTE S'OUVRE",
+  "debut": 357.01,
+  "debut_global": 357.01
+ },
+ {
+  "chapitre": "CH0",
+  "tableau": "0.6 — LE FRÈRE",
+  "debut": 389.81,
+  "debut_global": 389.81
+ },
+ {
+  "chapitre": "CH0",
+  "tableau": "0.7 — LE TRÔNE",
+  "debut": 449.04,
+  "debut_global": 449.04
+ },
+ {
+  "chapitre": "CH0",
+  "tableau": "0.8 — LA DESCENTE",
+  "debut": 495.4,
+  "debut_global": 495.4
+ },
+ {
+  "chapitre": "CH0",
+  "tableau": "0.9 — TSOA",
+  "debut": 620.17,
+  "debut_global": 620.17
+ },
+ {
+  "chapitre": "CH1",
+  "tableau": "1.1 — CE QUE TU SERAS",
+  "debut": 0.0,
+  "debut_global": 640.74
+ },
+ {
+  "chapitre": "CH1",
+  "tableau": "1.2 — LES CENDRES",
+  "debut": 54.42,
+  "debut_global": 695.16
+ },
+ {
+  "chapitre": "CH1",
+  "tableau": "1.3 — LA GRANDE EAU",
+  "debut": 89.01,
+  "debut_global": 729.75
+ },
+ {
+  "chapitre": "CH1",
+  "tableau": "1.4 — LE MUR",
+  "debut": 225.43,
+  "debut_global": 866.17
+ },
+ {
+  "chapitre": "CH1",
+  "tableau": "1.5 — AU MILIEU D'EUX",
+  "debut": 271.38,
+  "debut_global": 912.12
+ },
+ {
+  "chapitre": "CH1",
+  "tableau": "1.6 — UN MONDE DE PAIX",
+  "debut": 412.76,
+  "debut_global": 1053.5
+ },
+ {
+  "chapitre": "CH1",
+  "tableau": "1.7 — MILLE ANS",
+  "debut": 559.01,
+  "debut_global": 1199.75
+ },
+ {
+  "chapitre": "CH2",
+  "tableau": "2.1 — LE SCEAU",
+  "debut": 0.0,
+  "debut_global": 1245.36
+ },
+ {
+  "chapitre": "CH2",
+  "tableau": "2.2 — LE PREMIER",
+  "debut": 105.84,
+  "debut_global": 1351.2
+ },
+ {
+  "chapitre": "CH2",
+  "tableau": "2.3 — LES QUATRE COINS",
+  "debut": 217.35,
+  "debut_global": 1462.71
+ },
+ {
+  "chapitre": "CH2",
+  "tableau": "2.4 — COMME LE SABLE",
+  "debut": 383.6,
+  "debut_global": 1628.96
+ },
+ {
+  "chapitre": "CH3",
+  "tableau": "3.1 — LE CAMP",
+  "debut": 0.0,
+  "debut_global": 1768.54
+ },
+ {
+  "chapitre": "CH3",
+  "tableau": "3.2 — LE MASQUE TOMBE",
+  "debut": 41.75,
+  "debut_global": 1810.29
+ },
+ {
+  "chapitre": "CH3",
+  "tableau": "3.3 — LA PRIÈRE",
+  "debut": 166.15,
+  "debut_global": 1934.69
+ },
+ {
+  "chapitre": "CH3",
+  "tableau": "3.4 — L'ASSAUT",
+  "debut": 260.4,
+  "debut_global": 2028.94
+ },
+ {
+  "chapitre": "CH3",
+  "tableau": "3.5 — LE FEU DU CIEL",
+  "debut": 306.67,
+  "debut_global": 2075.21
+ },
+ {
+  "chapitre": "CH3",
+  "tableau": "3.6 — L'ÉTANG DE FEU",
+  "debut": 364.71,
+  "debut_global": 2133.25
+ },
+ {
+  "chapitre": "CH3",
+  "tableau": "3.7 — LES VOIX",
+  "debut": 411.52,
+  "debut_global": 2180.06
+ },
+ {
+  "chapitre": "CH4",
+  "tableau": "4.1 — LES VOIX",
+  "debut": 0.0,
+  "debut_global": 2220.76
+ },
+ {
+  "chapitre": "CH4",
+  "tableau": "4.2 — LE GRAND TRÔNE BLANC",
+  "debut": 54.58,
+  "debut_global": 2275.34
+ },
+ {
+  "chapitre": "CH4",
+  "tableau": "4.3 — CEUX QUI SAVAIENT",
+  "debut": 190.14,
+  "debut_global": 2410.9
+ },
+ {
+  "chapitre": "CH4",
+  "tableau": "4.4 — LE FAUX PASTEUR",
+  "debut": 305.39,
+  "debut_global": 2526.15
+ },
+ {
+  "chapitre": "CH4",
+  "tableau": "4.5 — TAHINA",
+  "debut": 369.93,
+  "debut_global": 2590.69
+ },
+ {
+  "chapitre": "CH4",
+  "tableau": "4.6 — LE JEUNE",
+  "debut": 440.65,
+  "debut_global": 2661.41
+ },
+ {
+  "chapitre": "CH4",
+  "tableau": "4.7 — LE JEUNE OBÉISSANT",
+  "debut": 505.37,
+  "debut_global": 2726.13
+ },
+ {
+  "chapitre": "CH4",
+  "tableau": "4.8 — LES COURONNES",
+  "debut": 552.71,
+  "debut_global": 2773.47
+ },
+ {
+  "chapitre": "CH4",
+  "tableau": "4.9 — LES PALAIS",
+  "debut": 661.15,
+  "debut_global": 2881.91
+ },
+ {
+  "chapitre": "CH4",
+  "tableau": "4.10 — PLUS RIEN",
+  "debut": 805.86,
+  "debut_global": 3026.62
+ },
+ {
+  "chapitre": "CH5",
+  "tableau": "5.1 — TOUTES CHOSES NOUVELLES",
+  "debut": 0.0,
+  "debut_global": 3057.84
+ },
+ {
+  "chapitre": "CH5",
+  "tableau": "5.2 — TROP GRAND",
+  "debut": 162.58,
+  "debut_global": 3220.42
+ },
+ {
+  "chapitre": "CH5",
+  "tableau": "5.3 — LA PORTE OUVERTE",
+  "debut": 194.06,
+  "debut_global": 3251.9
+ },
+ {
+  "chapitre": "CH5",
+  "tableau": "5.4 — LA MESURE",
+  "debut": 238.51,
+  "debut_global": 3296.35
+ },
+ {
+  "chapitre": "CH5",
+  "tableau": "5.5 — LES NATIONS",
+  "debut": 271.16,
+  "debut_global": 3329.0
+ },
+ {
+  "chapitre": "CH5",
+  "tableau": "5.6 — LE TABERNACLE",
+  "debut": 411.02,
+  "debut_global": 3468.86
+ },
+ {
+  "chapitre": "CH5",
+  "tableau": "5.7 — POUR TOUJOURS ?",
+  "debut": 531.99,
+  "debut_global": 3589.83
+ },
+ {
+  "chapitre": "CH6",
+  "tableau": "6.1 — LE FLEUVE",
+  "debut": 0.0,
+  "debut_global": 3620.56
+ },
+ {
+  "chapitre": "CH6",
+  "tableau": "6.2 — LA PEUR DU NOIR",
+  "debut": 129.3,
+  "debut_global": 3749.86
+ },
+ {
+  "chapitre": "CH6",
+  "tableau": "6.3 — PLUS DE NUIT",
+  "debut": 153.23,
+  "debut_global": 3773.79
+ },
+ {
+  "chapitre": "CH6",
+  "tableau": "6.4 — LA LARME",
+  "debut": 180.12,
+  "debut_global": 3800.68
+ },
+ {
+  "chapitre": "CH6",
+  "tableau": "6.5 — IL ESSUIERA",
+  "debut": 205.73,
+  "debut_global": 3826.29
+ },
+ {
+  "chapitre": "CH6",
+  "tableau": "6.6 — IL VOLE, ELLE VOLE",
+  "debut": 227.06,
+  "debut_global": 3847.62
+ },
+ {
+  "chapitre": "CH6",
+  "tableau": "6.7 — LE LIVRE",
+  "debut": 373.22,
+  "debut_global": 3993.78
+ },
+ {
+  "chapitre": "CH7",
+  "tableau": "7.1 — C'EST FAIT",
+  "debut": 0.0,
+  "debut_global": 4032.49
+ },
+ {
+  "chapitre": "CH7",
+  "tableau": "7.2 — LES BOUCLES",
+  "debut": 35.45,
+  "debut_global": 4067.94
+ },
+ {
+  "chapitre": "CH7",
+  "tableau": "7.3 — ALLÉLUIA ÉTERNEL",
+  "debut": 74.62,
+  "debut_global": 4107.11
+ },
+ {
+  "chapitre": "CH7",
+  "tableau": "7.4 — L'APPEL",
+  "debut": 253.87,
+  "debut_global": 4286.36
+ }
+]
